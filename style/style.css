@@ -1,0 +1,296 @@
+body,
+p {
+  margin: 0;
+}
+
+header {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+header .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.top .logo {
+  min-width: 30%;
+  margin: 0 32px;
+  cursor: pointer;
+}
+
+.top .phone {
+  display: flex;
+}
+
+.top img {
+  width: 24px;
+  margin: 0 4px 0 0;
+}
+
+.top .phone-item {
+  display: flex;
+  align-items: center;
+}
+
+.pro-c {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0 0;
+}
+
+.headerContact-down-content {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.top-left {
+  flex: 1;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerUserContent {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.top-mobile {
+  display: none;
+}
+
+.type-list-1 {
+  border-top: 1px solid #ccc;
+}
+
+.nav-up-item,
+.nav-down-item {
+  padding: 4px 8px;
+}
+
+.type-list-1 .nav-up-item:hover {
+  color: #fff;
+  cursor: pointer;
+  background: rgb(83, 138, 247);
+
+}
+
+.type-list-1,
+.type-list-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.type-list-2 {
+  background: rgb(123, 122, 122);
+  color: #fff;
+}
+
+footer img {
+  width: 100%;
+}
+
+.footer-m {
+  display: none;
+}
+
+.page-ss {
+  background-color: #F4F9FD;
+}
+
+.page-content {
+  max-width: 1366px;
+  margin: 0 auto;
+
+  padding: 0 16px 32px;
+}
+
+.m-input {
+  border-radius: 8px;
+  margin: 0 0 16px;
+  background: rgb(223, 223, 223);
+  border: none;
+  padding: 8px 12px;
+}
+
+.m-button {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 8px 0;
+  margin: 0 0 16px;
+  background: rgb(96, 178, 116);
+  cursor: pointer;
+}
+
+.m-line {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  margin: 0 0 16px;
+}
+
+.m-item {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.m-card {
+  width: 45%;
+  overflow: hidden;
+    border-radius: 32px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.m-card img {
+  width: 100%;
+}
+
+.m-nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 9;
+  padding: 0 32px;
+}
+.ogin-ntm {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+  width: 100px !important;
+  height: 50px !important;
+  cursor: pointer;
+}
+.m-nav-list {
+  background: rgb(236, 243, 254);
+  border-radius: 16px;
+}
+.m-nav-list p {
+  color: rgb(162, 166, 177);
+  margin: 8px 0;
+  padding-left: 64px;
+}
+.m-nav-item {
+  display: flex;
+  color: rgb(162, 166, 177);
+  align-items: center;
+}
+.ccscs {
+  background: rgb(236, 243, 254) !important; 
+}
+.m-nav-item img, .logout {
+  width: 32px !important;
+  height: 32px !important;
+}
+.m-nav span {
+  display: block;
+  padding: 16px;
+  cursor: pointer;
+}
+.m-nav span:active {
+  background: #ccc;
+}
+.m-logo {
+  margin: 0 auto;
+  width: 150px !important;
+  height: 50px !important;
+}
+@media screen and (max-width: 1200px) {
+
+  .pro-c,
+  .nav,
+  .phone,
+  .type-list-2,
+  .type-list-1 {
+    flex-wrap: wrap;
+  }
+
+  .phone-item,
+  .headerContact-down-content {
+    margin: 0 0 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .m-line {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .m-card {
+    width: 50%;
+  }
+
+  .m-item {
+    background: #fff;
+    width: 90%;
+    margin: 0 0 16px;
+    border-radius: 32px;
+  }
+
+  .type-list-1,
+  .type-list-2 {
+    display: none;
+  }
+
+  header .top {
+    display: none;
+  }
+
+  body {
+    background: rgb(245, 248, 252);
+  }
+
+  .top-mobile {
+    position: relative;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+  }
+
+  .top-mobile img {
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  .input-wrap {
+    padding: 4px 8px;
+    flex: 1;
+    margin: 0 32px;
+    border-radius: 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+  }
+
+  .input-wrap input {
+    border: none;
+    flex: 1;
+  }
+
+  .footer-m {
+    display: block;
+  }
+
+  .footer {
+    display: none;
+  }
+}

@@ -1,0 +1,32 @@
+.payment-step {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.payment-1 {
+  width: 100%;
+}
+.button-wrap {
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.m-button {
+  padding: 4px 64px;
+}
+.bbb {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .payment-step {
+    width: 80%;
+  }
+  .bbb {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .aaa {
+    display: none;
+  }
+}

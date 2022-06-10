@@ -1,0 +1,32 @@
+.detail-title {
+  display: block;
+  height: 100px;
+}
+
+.detail-2 {
+  display: block;
+  width: 80%;
+}
+
+.llll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 32px;
+}
+.llll img {
+  width: 45%;
+}
+
+@media screen and (max-width: 768px) {
+  .llll {
+    flex-direction: column;
+  }
+  .llll img {
+    width: 80%;
+  }
+  .detail-2 {
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+.page-ss img {
+  display: block;
+  margin: 0 auto;
+}
+.complete-step {
+  width: 60%;
+}
+.complete {
+  width: 400px;
+}
+.m-button {
+  margin: 0 auto;
+  width: 200px;
+  border-radius: 100px;
+  background: #fff;
+  color: #333;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 768px) {
+  .complete-step {
+    width: 80%;
+  }
+}

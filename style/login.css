@@ -1,0 +1,53 @@
+.login-step {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.form-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.login-form, .reg-form {
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  background: #fff;
+}
+.login-form img {
+  width: 80px;
+  display: block;
+  margin: 0 auto 16px;
+}
+.m-input {
+  width: 300px;
+}
+.form-item {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.reg-form .m-input {
+  margin: 0 8px 16px;
+}
+.reg-form .m-button {
+  flex: 1;
+}
+@media screen and (max-width: 1250px) {
+  .form-list {
+    justify-content: center;
+  }
+  .reg-form {
+    margin: 32px 0 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .login-step {
+    width: 80%;
+  }
+  .form-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
